@@ -1,0 +1,56 @@
+{"type":"FeatureCollection", "version":"draft", "features":
+
+[
+{"type":"Feature","geometry":{"type":"Point","coordinates":[6.069561,43.415211]},"properties":{"label":"Paris 83170 Brignoles","score":0.9516972727272727,"id":"83023_05n1tm","name":"Paris","postcode":"83170","citycode":"83023","x":948661.53,"y":6262177.77,"city":"Brignoles","context":"83, Var, Provence-Alpes-Côte d'Azur","type":"street","importance":0.46867,"street":"Paris"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.418837,44.758777]},"properties":{"label":"Paris 33880 Saint-Caprais-de-Bordeaux","score":0.9505399999999998,"id":"33381_sy62ut","name":"Paris","postcode":"33880","citycode":"33381","x":429522.28,"y":6412482.95,"city":"Saint-Caprais-de-Bordeaux","context":"33, Gironde, Nouvelle-Aquitaine","type":"street","importance":0.45594,"street":"Paris"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.526958,43.762461]},"properties":{"label":"Paris 40500 Saint-Sever","score":0.9477409090909091,"id":"40282_032egn","name":"Paris","postcode":"40500","citycode":"40282","x":416031.59,"y":6302280.74,"city":"Saint-Sever","context":"40, Landes, Nouvelle-Aquitaine","type":"street","importance":0.42515,"street":"Paris"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[1.957948,42.947813]},"properties":{"label":"Paris 11230 Sainte-Colombe-sur-l'Hers","score":0.9349254545454545,"id":"11336_oth9ey","name":"Paris","postcode":"11230","citycode":"11336","x":614880.05,"y":6205942.46,"city":"Sainte-Colombe-sur-l'Hers","context":"11, Aude, Occitanie","type":"street","importance":0.28418,"street":"Paris"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[1.811749,46.694191]},"properties":{"label":"Paris 36120 Jeu-les-Bois","score":0.9346054545454544,"id":"36089_0zitx1","name":"Paris","postcode":"36120","citycode":"36089","x":609201.29,"y":6622249.59,"city":"Jeu-les-Bois","context":"36, Indre, Centre-Val de Loire","type":"street","importance":0.28066,"street":"Paris"}}
+],
+
+"attribution":"BAN", "licence":"ETALAB-2.0", "query":"paris", "filters":{"type":"street"}, "limit":5}
+
+const coords = [[11.8166, 122.0942], 
+[47.492647, 19.051399], [41.902689, 12.496176], [43.779787, 11.265817],
+[52.373057, 4.892557], [-22.903150, -43.189903], [38.716174, -9.141589],
+[50.080293, 14.428983], [48.856663, 2.351556], [45.438095, 12.319029]]
+
+const coords = [
+{"geometry":{"coordinates":[11.8166, 122.0942 ]}}, 
+{"geometry":{"coordinates":[47.492647, 19.051399 ]}},
+{"geometry":{"coordinates":[41.902689, 12.496176 ]}},
+{"geometry":{"coordinates":[43.779787, 11.265817 ]}},
+{"geometry":{"coordinates":[52.373057, 4.892557 ]}},
+{"geometry":{"coordinates":[-22.903150, -43.189903 ]}},
+{"geometry":{"coordinates":[38.716174, -9.141589 ]}},
+{"geometry":{"coordinates":[50.080293, 14.428983 ]}},
+{"geometry":{"coordinates":[48.856663, 2.351556 ]}},
+{"geometry":{"coordinates":[45.438095, 12.319029 ]}}
+]
+
+const data1 = [
+    { "coordinates": [11.8166, 122.0942] },
+    { "coordinates": [47.492647, 19.051399] },
+    { "coordinates": [41.902689, 12.496176] },
+    { "coordinates": [43.779787, 11.265817] },
+    { "coordinates": [52.373057, 4.892557] },
+    { "coordinates": [-22.903150, -43.189903] },
+    { "coordinates": [38.716174, -9.141589] },
+    { "coordinates": [50.080293, 14.428983] },
+    { "coordinates": [48.856663, 2.351556] },
+    { "coordinates": [45.438095, 12.319029] }
+]
+
+
+const data = [
+    { "geometry": { "coordinates": [11.8166, 122.0942] } },
+    { "geometry": { "coordinates": [47.492647, 19.051399] } },
+    { "geometry": { "coordinates": [41.902689, 12.496176] } },
+    { "geometry": { "coordinates": [43.779787, 11.265817] } },
+    { "geometry": { "coordinates": [52.373057, 4.892557] } },
+    { "geometry": { "coordinates": [-22.903150, -43.189903] } },
+    { "geometry": { "coordinates": [38.716174, -9.141589] } },
+    { "geometry": { "coordinates": [50.080293, 14.428983] } },
+    { "geometry": { "coordinates": [48.856663, 2.351556] } },
+    { "geometry": { "coordinates": [45.438095, 12.319029] } }
+]
