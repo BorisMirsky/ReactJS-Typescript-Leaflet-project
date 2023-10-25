@@ -5,6 +5,7 @@ https://github.com/waliot/test-tasks/blob/master/tasks/frontend-1.md
 ReactJS, Typescript, Leaflet.
 
 
+
 Как пользоваться.
 1. Предполагаем, что на локальной машине установленые Node.js и VisualStudio.
 1. Склонировали проект на локальную машину.
@@ -12,5 +13,10 @@ ReactJS, Typescript, Leaflet.
 3. Выполнили команду npm install.
 4. Открыли проект в VisualStudio. 
 5. Запустили проект нажав f5 либо зелёный треуголник, либо зашли в папку ReactJS-Typescript-Leaflet-project\Waliot\src и выполнили команду npm start.
+
+Надо доделать:\
+1. добавить боковую панель
+2. строка поиска
+
 
    
